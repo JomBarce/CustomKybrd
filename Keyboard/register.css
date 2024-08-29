@@ -1,0 +1,158 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button1{
+    height: 38px;
+    background-color: #e6491d;
+    border: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #000000 3px solid;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 20px;
+}
+
+li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 50px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+    margin-left: 80px;
+    font-size: 40px;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header a:hover{
+    color: #e6491d;
+    font-weight: bold;
+}
+
+.logo img{
+    position: absolute;
+    top: 17px;
+    left: 5%;
+    width: 75px;
+    height: auto;
+}
+
+#login{
+    padding: 40px 0px 40px 0px;
+    color: #ffffff;
+}
+
+#login .middle{
+    text-align: center;
+}
+
+#login h1{
+    font-size: 35px;
+}
+
+#login h2{
+    font-size: 20px;
+}
+
+
+#login .button{
+    text-align: center;
+}
+
+#login input[type="username"]{
+    padding: 4px;
+    height: 30px;
+    width: 380px;
+} 
+
+#login input[type="email"]{
+    padding: 4px;
+    height: 30px;
+    width: 380px;
+}    
+
+#login input[type="password"]{
+    padding: 4px;
+    height: 30px;
+    width: 380px;
+} 
+
+#login input[type="checkbox"]{
+    text-align: center;
+    margin: 30px;
+    height: 15px;
+    width: 15px;
+}
+
+.box{
+    background-color: #3a586b;
+    border: #000000 3px solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+footer{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 1px;
+    min-height: 1px;
+    border-bottom: #000000 3px solid;
+}
+
+footer p{
+    text-align: center;
+    font-size: 15px;
+}
+
+@media(max-width: 780px){
+    header #branding,
+    header nav,
+    header nav li{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header{
+        padding-bottom: 20px;
+    }
+}

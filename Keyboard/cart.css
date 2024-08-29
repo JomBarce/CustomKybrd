@@ -1,0 +1,284 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button1{
+    background-color: #ffffff;
+    border:1px solid black;
+    text-align: left;
+}
+
+.button1 h3{
+    font-size: 20px;
+}
+
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #000000 3px solid;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 20px;
+}
+
+li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 50px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+    margin-left: 80px;
+    font-size: 40px;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header a:hover{
+    color: #e6491d;
+    font-weight: bold;
+}
+
+.button{
+    background:  #e6491d;
+    color: #ffffff;
+    padding-top: 5px;
+    min-height: 35px;
+    border-bottom: #000000 3px solid; 
+}
+
+.button a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.active a{
+    color: #000000;
+    font-weight: bold;
+}
+
+
+.button a:hover{
+    color: #000000;
+    font-weight: bold;
+}
+
+.logo img{
+    position: absolute;
+    top: 17px;
+    left: 5%;
+    width: 75px;
+    height: auto;
+}
+
+#showcase{
+    min-height: 400px;
+    background:url('./Pictures/Background1.png') no-repeat;
+    text-align: center;
+    color: #ffffff;
+    border-bottom: #000000 3px solid; 
+}
+
+#showcase h1{   
+    margin-top: 100px;
+    font-size: 120px;
+    margin-bottom: 10px;
+}
+
+#showcase p{   
+    font-size: 20px;
+}
+
+.forumname h1{
+    font-size: 25px;
+}
+.forums{
+    color: #ffffff;
+    background-color: #e6491d;
+    border-bottom: #000000 3px solid;
+}
+
+#shop{
+    font-size: 20px;
+    border-bottom: #000000 3px solid;
+}
+
+#shop .column{
+    float: left;
+    width: 33.33%;
+}
+
+.buttonswitch{
+    background-image: url('./Pictures/Switchs.jpg');
+    background-size: contain;
+    width: 500px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.buttonkeyboard{
+    background-image: url('./Pictures/keyboard.jpg');
+    background-size: contain;
+    width: 500px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.buttonkeycaps{
+    background-image: url('./Pictures/keycaps.jpg');
+    background-size: contain;
+    width: 500px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 1px;
+    min-height: 1px;
+    border-bottom: #000000 3px solid;
+}
+
+footer p{
+    text-align: center;
+    font-size: 15px;
+}
+
+#profile{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+#profile .icon{
+    width: 250px;
+    height: 250px;
+}
+
+#profile H2{
+    font-size: 20px;
+}
+
+#table{
+    border: #000000 1px solid;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+#table td{
+    border: #000000 1px solid;
+}
+
+#table .product{
+    text-align: center;
+}
+
+#table h2{
+    text-align: center;
+    font-size: 20px;
+}
+
+#table h3{
+    text-align: center;
+    font-size: 18px;
+}
+
+#table h4{
+    padding-left: 100PX;
+    font-size: 18px;
+}
+
+#table p{
+    text-align: center;
+}
+
+.bin{
+    width: 35px;
+    height: 50px;
+}
+
+.buy{
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+}
+
+.button3{
+    background-color:  #e6491d;
+    border:2px solid black;
+    text-align: left;
+    font-size: 50px;
+    padding: 10px;
+    color: #ffffff;
+}
+
+@media(max-width: 1500px){
+    #shop .column{
+        float: left;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    #shop .column{
+        float: left;
+        width: 100%;
+    }
+
+    #aboutbutton .box{
+        float: left;
+        width: 50%;
+    }
+}
+
+@media(max-width: 780px){
+    header #branding,
+    header nav,
+    header nav li{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header{
+        padding-bottom: 20px;
+    }
+
+    #showcase h1{
+        margin-top: 40px;
+    }
+}

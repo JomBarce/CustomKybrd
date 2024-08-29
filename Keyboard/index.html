@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Customkybrd</title>
+        <link rel="stylesheet" href="KYBRD.css">
+        <script src="JS/KYBRD.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <div class="logo">
+                        <img src="./Pictures/Switch.png">
+                    </div>
+                    <h1 onclick="gotoPage('index.html')">CUSTOMKYBRD</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="login.html">Log In</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="button">
+            <div class="container">
+            <nav>
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="keyboards.html">Keyboards</a></li>
+                    <li><a href="switches.html">Switches</a></li>
+                    <li><a href="miscellaneous.html">Miscellaneous</a></li>
+                    <li><a href="forum.html">Forum</a></li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+        <section id="showcase">
+            <div class="container">
+                <h1>KEYBOARDS</h1>
+                <p>Experience keyboards like no other with your own cutsomized keyboards</p>
+            </div>
+        </section>
+        <div class="shopname">
+            <div class="container">
+                <h1>SHOP</h1>
+            </div>
+        </div>
+        <section id="shop">
+            <div class="container">
+                <div class="items">
+                    <div class="column">
+                        <h3>Switches</h3>
+                        <button onclick="gotoPage('switches.html')" type="button" class="buttonswitch"></button>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="column">
+                        <h3>Keyboards</h3>
+                        <button onclick="gotoPage('keyboards.html')"  class="buttonkeyboard"></button>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="column">
+                        <h3>Keycaps</h3>
+                        <button onclick="gotoPage('miscellaneous.html')"  class="buttonkeycaps"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="about">
+            <div class="container">
+                <h1>ABOUT</h1>
+            </div>
+        </div>
+        <section id="aboutbutton">
+            <div class="container">
+                <div class="box">
+                    <h2>CUSTOMKYBRD</h2>
+                    <p>customkybrd@email.com</p>
+                    <p>123 Cebu City, Cebu 6000, Philippines</p>
+                </div>
+                <div class="box">
+                    <h3>Home</h3>
+                    <button onclick="gotoLinks('index.html')" class="button2">Shop</button>
+                    <button onclick="gotoLinks('cart.html')" class="button2">Profile</button>
+                    <button onclick="gotoLinks('index.html')" class="button2">Help</button>
+                </div>
+                <div class="box">
+                    <h3>Company</h3>
+                        <button onclick="gotoLinks('index.html')" class="button2">About Us</button>
+                        <button onclick="gotoLinks('index.html')" class="button2">History</button>
+                        <button onclick="gotoLinks('index.html')" class="button2">Team</button>
+                </div>
+                <div class="box">
+                    <h3>Forum</h3>
+                    <button onclick="gotoLinks('forum.html')" class="button2">News</button>
+                    <button onclick="gotoLinks('forum.html')" class="button2">Questions</button>
+                    <button onclick="gotoLinks('forum.html')" class="button2">Discussions</button>
+                </div>
+                <div class="box">
+                    <h3>Find us on</h3>
+                    <button onclick="gotoLinks('https://www.facebook.com/')" class="button2">Facebook</button>
+                    <button onclick="gotoLinks('https://www.twitter.com/')" class="button2">Twitter</button>
+                    <button onclick="gotoLinks('https://www.instagram.com/')" class="button2">Instagram</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>CUSTOMKYBRD, Copyright &copy; 2020</p>
+        </footer>
+    </body>
+</html>

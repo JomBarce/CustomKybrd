@@ -1,0 +1,2 @@
+USERNAME = custom@email.com
+PASSWORD = 123456789

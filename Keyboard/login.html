@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Customkybrd</title>
+        <link rel="stylesheet" href="login.css">
+        <script src="JS/KYBRD.js"></script>
+    </head>
+    <body onload="login()">
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <div class="logo">
+                        <img src="./Pictures/Switch.png">
+                    </div>
+                    <h1 onclick="gotoPage('index.html')">CUSTOMKYBRD</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="register.html">Register</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="login">
+            <table class="box">
+                <td>
+                    <div class="middle">
+                        <img src="./Pictures/Switch2.png">
+                        <h1>CUSTOMKYBRD</h1>
+                    </div>
+                        <form>
+                            <h2>Email Address</h2>
+                            <input type="email" name="email" id="email" placeholder="Enter Email...">
+                            <h2>Password</h2>
+                            <input type="password" name="password" id="password" placeholder="Enter Password...">
+                            <div class="checkbox">
+                                <input type="checkbox" id="agree" name="agree" value="agree"><label for="agree">Remember Me</label><br>
+                            </div>
+                            <div class="button">
+                                <button onclick="validate()" type="button" class="button1">Log In</button> 
+                            </div>
+                            <div class="forgot">
+                                <a class="forgot" href="login.html">Forgot Password?</a>
+                            </div>
+                        </form>
+                </td>
+            </table>
+        </section>
+        <footer>
+            <p>CUSTOMKYBRD, Copyright &copy; 2020</p>
+        </footer>
+    </body>
+</html>
